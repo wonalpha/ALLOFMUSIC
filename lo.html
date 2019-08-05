@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>won"s allofmusic site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scal=1.0">
+    <style>
+    .a{
+      border:red 2px solid;
+      font-size:40px
+    }
+    #a{
+      padding-right:20px;
+      padding-left:19px;
+    }
+    </style>
+  </head>
+  <body>
+    <input id="night" type="button" value="black" onclick="
+      if (document.querySelector('#night').value === 'black'){
+        document.querySelector('body').style.backgroundColor='black';
+        document.querySelector('body').style.color='white';
+        document.querySelector('#li').style.color='white';
+        document.querySelector('#night').value = 'white';
+      }
+      else{
+        document.querySelector('body').style.backgroundColor='white';
+        document.querySelector('body').style.color='black';
+        document.querySelector('#li').style.color='black';
+        document.querySelector('#night').value = 'black';
+      }"
+      >
+    <li><a href="bg.html" style="color:red; text-decoration:none;">ALL OF MUSIC이란?</a></li>
+    <li><a href="ov.html"style="color:blue; text-decoration:none;">AOM video</a></li>
+    <li><a id="li"href="lo.html"style="color:black">만든사람</a></li>
+    <li><a href="AOM.html"style="color:green; text-decoration:none;">올오브뮤직</a></li>
+    <li><a href="index.html"style="color:(112,48,160); text-decoration:none;">ALL OF MUSIC</a></li>
+    <h1 style="font-size: 70px">알려지지 않음</h1>
+    <img src="물음표.png">
+
+    <div><a class="a">이름</a><a class="a" id="a">?</a><div>
+    <div><a class="a">나이</a><a class="a" id="a">?</a><div>
+    <div><a class="a">성별</a><a class="a" id="a">?</a></div>
+  </body>
+</html>

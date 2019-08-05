@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ALLOFMUSIC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scal=1.0">
+    <style>
+    a{
+      text-decoration:none;
+      font-size: 40px;
+    }
+    li{
+      font-size:40px;
+    }
+    ol{
+      margin-top:84px;
+      margin-left: 457px;
+    }
+    /*
+    #asd{
+      border: 2px solid;
+      padding:20px
+    }
+    */
+    h1{
+      border-bottom:2px solid;
+      margin: 0
+    }
+    @media(max-width:900px){
+      ol{
+        margin-left:0;
+      }
+    }
+    </style>
+  </head>
+  <body>
+  <input id="night" type="button" value="black" onclick="
+    if (document.querySelector('#night').value === 'black'){
+      document.querySelector('body').style.backgroundColor='black';
+      document.querySelector('ol').style.color='white';
+      document.querySelector('h1').style.color='gold';
+      document.querySelector('#asdfa').style.color='yellow';
+      document.querySelector('#night').value = 'white';
+    }
+    else{
+      document.querySelector('body').style.backgroundColor='white';
+      document.querySelector('ol').style.color='black';
+      document.querySelector('h1').style.color='black';
+      document.querySelector('#asdfa').style.color='black';
+      document.querySelector('#night').value = 'black';
+    }"
+    >
+    <div id="as">
+      <h1 style="font-size: 100px; text-align: center ">AllOfMusic</h1>
+    </div>
+    <div id="asd">
+      <ol>
+        <li><a href="bg.html" style="color:red; text-align">ALL OF MUSIC이란?</a></li>
+        <li><a href="ov.html"style="color:blue">AOM video</a></li>
+        <li><a href="lo.html"style="color:green">만든사람</a></li>
+        <li><a id="asdfa" href="AOM.html"style="color:black">올오브뮤직</a></li>
+      </ol>
+    </div>
+    <img src=allofmusic.png width="300"style="margin:100px">
+
+  </body>
+</html>
